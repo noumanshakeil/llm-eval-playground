@@ -1,0 +1,11 @@
+{
+  "project": "llm-eval-playground",
+  "resource": "suites",
+  "samples": [
+    {
+      "id": "e1",
+      "name": "toxicity",
+      "cases": 12
+    }
+  ]
+}
