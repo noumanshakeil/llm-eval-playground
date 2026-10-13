@@ -1,0 +1,13 @@
+[project]
+name = "llm-eval-playground"
+version = "2.0.0"
+description = "Dataset-driven LLM evaluation with cases, pluggable scorers (exact / contains / length), run history, and aggregate pass rates — deterministic under mock mode for CI."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
